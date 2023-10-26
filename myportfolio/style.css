@@ -1,0 +1,296 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    font-family: "Helvetica Neue", Arial, sans-serif;
+
+}
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('./bg.png');
+    background-size: cover;
+    z-index: -1; 
+  }
+  
+a{
+    list-style: none;
+    color: #000000;
+    text-decoration: none;
+}
+header {
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px ;
+    margin: 20px 30px;
+    position: fixed; 
+    top: 0;
+    width: 100%;
+    z-index: 9999999999;
+
+}
+
+nav ul {
+    padding: 0 230px;
+    list-style: none;
+    display: flex;
+
+}
+
+nav li {
+    margin-right: 50px;
+    border-bottom: 1px solid black;
+    border-width: 0px;
+ 
+}
+nav li:hover {
+    border-width: 1px;
+}
+
+nav a {
+    background-color: rgb(255, 255, 255, 0.345);
+    width: 6rem;
+    height: 5rem;
+    position: absolute;
+    top: 0;
+    right: 430px;
+    border-top: 3rem solid #2c1e1e;
+    border-radius: 0 0 2rem 2rem;
+    backdrop-filter: blur(.5rem);
+    z-index: -1;
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.2rem;
+    letter-spacing: .08rem;
+}
+.home {
+    padding: auto 0;
+    height: 100vh;
+}
+.home-text {
+  
+    padding: 200px 0 ;
+    margin-left: 200px;
+}
+.home-text h6{
+    font-size: 0px;
+    
+}
+.home .home-img{
+    position: relative;
+  
+}
+.home .home-img img{
+    position: absolute;
+    width: 350px;
+    top: -250px;
+    border-radius: 7px;
+    right: 200px;
+}
+
+.home-btn button{
+    padding: 15px 20px;
+    border-radius: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+    background-color: transparent;
+    transition-duration: 0.6s;
+}
+.home-btn button:hover{
+    background-color: #000000;
+}
+.home-btn a {
+    color: #000000;
+    cursor: pointer;
+}
+.home-btn :hover a {
+    color: white;
+}
+.home-icon{
+  position: fixed;
+  top: 245px;
+  margin-left:10px ;
+
+}
+.home-icon a img{
+    padding: 10px 0;
+    top: -100px;
+    width: 30px;
+}
+.home .img-arrow{
+    
+    position: relative;
+} 
+.home .img-arrow img{
+    position: absolute;
+    left: 80px;
+    top: -80px;
+    width: 200px;
+}
+
+
+
+.about{
+
+height: 100vh;
+
+
+}
+.about-img img{
+    padding: 150px 0;
+    margin-left: 200px;
+   
+}
+.about h5{
+    width: 33em;
+    text-align: justify;
+    float: right;
+    padding: 0 215px;
+    margin-top: -100px;
+    font-size: 14px;
+}
+.about-me .about-arrow
+{
+    position: relative;
+}
+.about-me .about-arrow img{
+    position: absolute;
+    width: 300px;
+    top: -370px;
+    right: 450px;
+}
+
+
+
+.about-me .about-arrow3  {
+position: relative;
+}
+.about-me .about-arrow3  img{
+    width: 320px;
+    position: absolute;
+    top: -90px;
+    left: 280px;
+}
+
+.my-hobbies{
+    
+    height: 100vh;
+    padding-top: 13px;
+        
+}
+
+.hobies-text h2{
+    font-size: 40px;
+    padding: 0 200px;
+}
+.my-hobbies table{
+    margin: 0 200px;
+    padding: auto 0;
+}
+.my-hobbies table, th, td{
+    border-collapse: collapse;
+    border: 2px solid black;
+    background-color: transparent;
+    padding: 0;
+   
+    
+}
+.my-hobbies table td img{
+    width: 152px;
+    cursor: pointer;
+    transition-duration: 0.6s;
+}
+.my-hobbies table td img:hover{
+    width: 200px;
+    border-radius: 50%;
+}
+
+
+
+.educational{
+    height: 100%;
+    padding: 50px 0;
+}
+.educational h2{
+    font-size: 40px;
+    padding: 0 200px;
+}
+.kld {
+    padding: 50px 0;
+    
+}
+.attainment {
+    position: relative;
+    padding-top: 20px;
+}
+.kld img{
+    position: absolute;
+    right: 206px;
+    width: 170px;
+    border-radius: 50%;
+}
+.kld .kld-text{
+    padding: 1px 200px;
+}
+
+.left{
+    position: relative;
+}
+.left img{
+    position: absolute;
+    width: 300px;
+    z-index: 1;
+    top: -250px;
+}
+
+
+
+.contact{
+    height: 100vh;
+}
+
+.input{
+    padding: 150px 0;
+    margin-left: 200px;
+}
+textarea{
+    padding: 10px;
+    padding-right: 220px;
+}   
+form input{
+    padding: 10px;
+    padding-right: 220px;
+   
+}
+.bottomline{
+    background-color: transparent;
+    border: 2px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.bottomline::placeholder{
+    color: #000000;
+}
+.submit{
+    padding: 10px 50px;
+    border-radius: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+    background-color: transparent;
+    transition-duration: 0.6s;
+}
+.submit:hover{
+    background-color: #000000;
+}
+.submit:hover a{
+    color: #ffffff;
+}
